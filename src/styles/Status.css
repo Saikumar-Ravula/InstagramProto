@@ -1,0 +1,37 @@
+.status-block{
+    height: 80px;
+    width: 80px;
+    flex-shrink: 0;
+}
+
+.status-button{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.status-image{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px solid red;
+    cursor: pointer;
+}
+
+.status-label{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+}
+
+.span-label {
+    display: inline-block;
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
