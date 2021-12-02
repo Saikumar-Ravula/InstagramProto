@@ -1,0 +1,5 @@
+.background-grey {
+  background-color: #f0efef;
+  display: flex;
+  flex-direction: column;
+}
